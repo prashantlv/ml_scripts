@@ -8,7 +8,6 @@ import numpy as np
 
 from . import dispatcher
 
-
 def predict(test_data_path, model_type, model_path):
     df = pd.read_csv(test_data_path)
     test_idx = df["id"].values
